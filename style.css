@@ -1,0 +1,35 @@
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60vh; 
+}
+
+.nama-depan{
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  color: #333;
+  justify-content: center;
+}
+
+.about {
+  background: url('about.svg') no-repeat;
+}
+
+.text-footer {
+  position: absolute; /* Mengatur teks ke posisi absolut dalam kontainer */
+  bottom: 0; /* Meletakkan teks di bagian bawah kontainer */
+  left: 0; /* Meletakkan teks di posisi paling kiri kontainer */
+  right: 0; /* Meletakkan teks di posisi paling kanan kontainer */
+  margin-bottom: 40px; 
+  color: #fff;
+}
+
+
+footer .footer {
+  width: 100%;
+  height: 340px;
+  background: url('footer.svg');
+}
+
+
+
