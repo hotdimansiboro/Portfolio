@@ -5,68 +5,215 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css" />
     <title>Portofolio</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-primary">
       <div class="container">
         <a class="navbar-brand" href="index.html">PORTOFILIO</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
+          <ul class="navbar-nav mr-auto">
             <li class="nav-item">
               <a class="nav-link active" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
+              <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="portofolio.html">Portofolio</a>
+              <a class="nav-link" href="#portofolio">Portofolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="suggest.html">Suggest</a>
+              <a class="nav-link" href="#suggest">Suggest</a>
+            </li> 
+          </ul>
+        </div>
+        <div>
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a href="mailto:hotdimansiboro@gmail.com" class="nav-link"><i class="fa-solid fa-envelope fa-xl"></i></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
+              <a class="nav-link" href="https://www.instagram.com/h.siboro/"><i class="fa-brands fa-instagram fa-xl"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fa-brands fa-linkedin fa-xl"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://wa.me/+6281280786506?text=Hello%20Apa%20Kabar" target="_blank"><i class="fa-solid fa-phone-volume fa-xl"></i></a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <section class="section pt-5">
+    <section id="home">
       <div class="container">
         <div class="row d-flex align-items-center">
           <div class="col-6">
             <div class="row">
               <div class="col-12">
                 <div class="profil">
-                  <p>Jadilah Teladan bagi orang-orang percaya, dalam setiap perkataanmu, tingkah lakumu, Kasihmu, imanmu dan kesucianmu, Tindakan dan Perilaku Seorang yang beriman sebagai Teladan bagi orang lain</p>
+                  <p class="text-white">
+                    Jadilah Teladan bagi orang-orang percaya, dalam setiap perkataanmu, tingkah lakumu, Kasihmu, imanmu dan kesucianmu, Tindakan dan Perilaku Seorang yang beriman sebagai Teladan bagi orang lain
+                  </p>
                 </div>
               </div>
             </div>
             <div class="row d-flex justify-content-center pt-5">
               <div class="col-12">
                 <a href="https://hotdimansiboro.github.io/Portfolio/Img/CV.pdf">
-                  <button type="button" class="btn btn-outline-primary">Download CV</button>
+                  <button type="button" class="btn btn-gr">Download CV</button>
                 </a>
               </div>
             </div>
           </div>
           <div class="col-6 text-center">
-            <img src="hotdiman.jpeg" class="img-fluid" alt="hotdiman" width="300" />
+            <div class="hero">
+              <img src="img/hotdimanSiboro.jpg" class="img-fluid" alt="hotdiman" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="content" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="about-header">
+              <h1 class="text-center"><b>ABOUT</b></h1>
+            </div>
+          </div>
+        </div>
+        <div class="row pt-3">
+          <div class="col-6">
+            <div class="about">
+              <p>
+                Hidup ini adalah perjalanan yang penuh warna, penuh dengan tantangan dan keindahan yang membuatnya layak dijalani, di tengah kesibukan dan tekanan sehari-hari, terkadang kita membutuhkan dorongan ekstra
+                untuk menjaga semangat tetap menyala, Kata-kata motivasi terbaik adalah sahabat setia yang mampu menerangi jalanan gelap dan memberikan kekuatan untuk terus berjalan
+              </p>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="about">
+              <p>
+                Pagi selalu mengajarkan kita bahwa ada harapan disetiap langkah kehidupan, Cintai Pekerjaanmu, Kerja keras baik bagi jiwa, dan hal itu menjaga Anda dari perasaan menyesali diri karena Anda tidak punya
+                waktu, Kerja keras dan sabar sisanya akan mengikuti And, Satu-satunya cara untuk melakukan pekerjaan yang hebat adalah dengan mencintai apa yang kamu lakukan
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="portofolio pt-5" id="portofolio">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="row">
+              <div class="col-12">
+                <div class="port-header">
+                  <h1 class="text-center"><b>PORTOFOLIO</b></h1>
+                </div>
+              </div>
+            </div>
+            <div class="row pt-5 pb-5">
+              <div class="col-3">
+                <div class="card" style="width: 18rem">
+                  <img src="Img/ISO1.jpeg" class="card-img-top" alt="image-1" />
+                  <div class="card-body">
+                    <h5 class="card-title text-center">ISO 1</h5>
+                    <p class="card-text">
+                      kerjasama adalah kolaborasi atau interaksi antara individu atau kelompok untuk mencapai tujuan bersama, dengan saling berkontribusi, berbagi ide, dan bekerja sama secara efektif.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="card" style="width: 18rem">
+                  <img src="Img/ISO2.jpeg" class="card-img-top" alt="image-1" />
+                  <div class="card-body">
+                    <h5 class="card-title text-center">ISO 2</h5>
+                    <p class="card-text">
+                      Prosedur adalah serangkaian langkah atau aturan yang ditetapkan untuk melaksanakan suatu tugas atau mencapai suatu tujuan dengan cara yang terorganisir dan terstruktur. Makna prosedur terletak pada
+                      fungsinya sebagai panduan yang membantu memastikan konsistensi, keamanan, dan efisiensi dalam pelaksanaan aktivitas atau pekerjaan.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="card" style="width: 18rem">
+                  <img src="Img/RAKER04-DECEMBER-2024.jpeg" class="card-img-top" alt="image-1" style="min-height: 215px !important" />
+                  <div class="card-body">
+                    <h5 class="card-title text-center">Raker 04</h5>
+                    <p class="card-text">
+                      Kinerja merujuk pada sejauh mana seseorang atau suatu sistem mencapai atau melampaui standar yang ditetapkan. Makna kinerja dalam konteks pekerjaan atau organisasi mencakup evaluasi efisiensi,
+                      efektivitas, dan kontribusi terhadap tujuan yang telah ditetapkan. Kinerja yang baik sering kali dihubungkan dengan pencapaian hasil yang memuaskan dan kontribusi positif terhadap kesuksesan suatu
+                      entitas.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="card" style="width: 18rem">
+                  <img src="Img/RAKER2024.jpeg" class="card-img-top" alt="image-1" style="min-height: 215px !important" />
+                  <div class="card-body">
+                    <h5 class="card-title text-center">Raker 2024</h5>
+                    <p class="card-text">
+                      Realisasi kinerja mengacu pada implementasi atau pencapaian sebenarnya dari tujuan atau standar yang telah ditetapkan. Ini mencerminkan sejauh mana seseorang, tim, atau organisasi berhasil
+                      menerjemahkan rencana atau harapan menjadi tindakan yang konkret dan hasil yang terukur. Evaluasi realisasi kinerja membantu mengidentifikasi sejauh mana tujuan telah tercapai dan memberikan wawasan
+                      untuk perbaikan atau pengembangan lebih lanjut.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="content" id="suggest">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="suggest-header">
+              <h1 class="text-center"><b>SUGGEST</b></h1>
+            </div>
+          </div>
+        </div>
+        <div class="row pt-5">
+          <div class="col-12">
+            <form>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" />
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+            </form>
           </div>
         </div>
       </div>
     </section>
 
     <footer class="p-0 m-0">
-      <div class="footer"></div>
-      <div class="text-footer">
-        <h5 class="text-center">HotdimanSiboro@2023</h5>
+      <div class="footer">
+        <div class="text-footer">
+          <h5 class="text-center">HotdimanSiboro@2023</h5>
+        </div>
       </div>
     </footer>
 
